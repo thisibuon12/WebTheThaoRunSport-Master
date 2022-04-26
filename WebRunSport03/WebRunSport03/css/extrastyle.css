@@ -1,0 +1,63 @@
+.navbar {
+
+/* border: 3px inset #ee2323; */
+background: linear-gradient(
+  90deg,
+  rgba(143, 19, 226, 1) 0%,
+  rgba(255, 23, 23, 1) 54%,
+  rgba(255, 158, 23, 1) 99%
+);
+}
+
+.navbar li a:hover {
+  color: red !important;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 400px;
+}
+button.btn.btn-success {
+  margin-bottom: 30px;
+}
+.list-unstyled ul li i {
+  color: white !important;
+}
+.fa-facebook:before {
+  background: #415a9d;
+  color: white;
+  border: 8px solid #415a9d;
+  border-radius: 45px;
+}
+.fa-google-plus:before {
+  background: #dc4033;
+  color: white;
+  border: 6px solid #dc4033;
+  border-radius: 142px;
+}
+.fa-twitter:before {
+  background: #05a7ef;
+  color: white;
+  border: 6px solid #05a7ef;
+  border-radius: 115px;
+}
+#little-img {
+  bottom: 40px;
+  right: 0;
+  display: block;
+  position: fixed;
+}
+#little-zalo {
+  bottom: 85px;
+  right: 0;
+  display: block;
+  position: fixed;
+}
+#little-inta {
+  bottom: 130px;
+  right: 0;
+  display: block;
+  position: fixed;
+}
+/* Sản Phẩm .html */
+
+/* End Sản Phẩm .html */

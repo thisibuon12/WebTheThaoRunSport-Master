@@ -1,0 +1,179 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TrangPhu.master.cs" Inherits="WebRunSport03.TrangPhu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="./css/extrastyle.css">
+    <title>Giới Thiệu</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-expand-xl navbar-dark bg-danger">
+        <a class="navbar-brand" href="#"><img src="./image/logo.jpg" alt="" style="height: 80px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentXL" aria-controls="navbarSupportedContentXL" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContentXL">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href='<%="TrangChuMasterPage.aspx"%>' style="font-size: 20px;">TRANG CHỦ<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href='<%="GioiThieuMasterPage.aspx"%>' style="font-size: 20px;">LIÊN HỆ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownXL" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;">
+                        DANH MỤC SẢN PHẨM
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownXL">
+                        <a class="dropdown-item" href="#" style="font-size: 20px;">ÁO CÂU LẠC BỘ</a>
+                        <a class="dropdown-item" href="#" style="font-size: 20px;">ÁO ĐỘI TUYỂN</a>
+                        <a class="dropdown-item" href="#" style="font-size: 20px;">GIÀY</a>
+                        <a class="dropdown-item" href="#" style="font-size: 20px;">PHỤ KIỆN</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">KHÁC</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Bạn Cần Tìm Gì..." aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">TÌM KIẾM</button>
+            </form>
+        </div>
+    </nav>
+    <span id="little-img"><img src="image/kien.jpg"
+        style="width: 40px;height: 40px;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;"alt="hinh fb kien huynh"/></span>
+    <span id="little-zalo"><img src="image/zalo.jpg"
+        style="width: 40px;height: 40px;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;"alt="hinh zalo"/></span>
+    <span id="little-inta"><img src="image/inta.jpg"
+        style="width: 40px;height: 40px;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;"alt="hinh intagram"/></span>
+    <span id="vnclock"></span>
+        <!-- Container -->
+    
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+          <!-- Footer -->
+    <div class="<div class="container-fluid">
+      <div class=" bg-dark  text-white">
+        <!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><p>Hướng dẫn</p></h5>
+  
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fa fa-angle-right" style="color: white;"></i> Hướng dẫn vệ sinh giày</a></li>
+            <li><a href="#"><i class="fa fa-angle-right" style="color: white;"></i> Chính sách vận chuyển</a></li>
+             <li><a href="#"><i class="fa fa-angle-right" style="color: white;"></i> Hình thức thanh toán</a></li>
+             <li><a href="#"><i class="fa fa-angle-right"style="color: white;"></i> Chính Sách Bảo Mật</a></li>	
+             <li><a href="#"><i class="fa fa-angle-right"style="color: white;"></i> Chính sách đổi trả hàng </a></li>
+             <li><a href="#"><i class="fa fa-angle-right"style="color: white;"></i > Chính sách bảo hành</a></li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><p>Về chúng tôi</p></h5>
+  
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fa fa-angle-right" style="color: white;"></i> Tiêu chuẩn chất lượng sản phẩm </a></li>
+            <li><a href="#"><i class="fa fa-angle-right" style="color: white;"></i> Tuyển dụng</a></li>
+            <li><a href="#"><i class="fa fa-angle-right" style="color: white;"></i> Liên hệ mua hàng</a></li>
+            <li><a href="#"><i class="fa fa-angle-right" style="color: white;"></i> Giới thiệu Về Chúng Tôi</a></li>  
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><p>Thông Tin Liên Hệ</p></h5>
+  
+          <ul class="list-unstyled">
+            <p><i class="fa fa-map-marker"></i> Địa chỉ:Khu Lấn Biển Tp Rạch Giá</p>
+            <p><i class="fa fa-phone-square"></i> Điện thoại: 0858.410.169</p>
+            <p><i class="fa fa-phone"></i> Hotline:0858.410.169</p>
+            <p><i class="fa fa-envelope-o"></i> SportRunVietNam@gmail.com</p>
+            <p class="netword_box">
+                <a href="https://www.facebook.com" ><span class="fa fa-facebook"></span></a>
+                <a href="https://plus.google.com" ><span class="fa fa-google-plus"></span></a>
+                <a href="https://twitter.com"><span class="fa fa-twitter"></span></a>
+            </p>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Được Chứng Nhận</h5>
+  
+          <ul class="list-unstyled">
+           <li><a href="#"><img src="image/chungnhan.png" alt=""></a></li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© Run Sport:
+      <a href="trangchu.html"> RunSport.vn</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+    </div>
+    <!-- End Footer -->
+    </div>
+      
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SanPhamDataClasses">
+  <DataContextMoniker Name="/SanPhamDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="91d7fed7-753b-4f45-8aa5-396294f173d4" absoluteBounds="1.625, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SanPhamDataClassesDataContext/DANHMUCSP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c25110c-ae2c-4043-8b51-20e4c0ee2767" absoluteBounds="1.6400000000000001, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e787fdde-d3b2-40ea-a965-f60972867f50" absoluteBounds="0.625, 2.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SanPhamDataClassesDataContext/LIENHE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f2779df-734d-4a89-a263-da7426e23cf1" absoluteBounds="0.64000000000000012, 2.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5518d86b-9190-4407-b269-5a6d44a0d944" absoluteBounds="4.25, 3.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SanPhamDataClassesDataContext/SANPHAM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20ad1b65-ecb3-43a4-b34a-ce2cb512d9eb" absoluteBounds="4.265, 3.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.15625 : 1.8862939453125); (3.15625 : 5.282900390625); (4.25 : 5.282900390625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SanPhamDataClassesDataContext/DANHMUCSP/DANHMUCSP_SANPHAM" />
+      <nodes>
+        <classShapeMoniker Id="91d7fed7-753b-4f45-8aa5-396294f173d4" />
+        <classShapeMoniker Id="5518d86b-9190-4407-b269-5a6d44a0d944" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ee10a74e-77b5-496b-8417-f7031348aec8" absoluteBounds="4.625, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SanPhamDataClassesDataContext/DONHANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b263037a-b8a4-4aa1-ac95-02f4421fd8c4" absoluteBounds="4.64, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.4375 : 3.5); (5.4375 : 2.84780110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SanPhamDataClassesDataContext/SANPHAM/SANPHAM_DONHANG" />
+      <nodes>
+        <classShapeMoniker Id="5518d86b-9190-4407-b269-5a6d44a0d944" />
+        <classShapeMoniker Id="ee10a74e-77b5-496b-8417-f7031348aec8" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
